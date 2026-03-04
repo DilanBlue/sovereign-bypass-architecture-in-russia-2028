@@ -1,0 +1,15 @@
+# hysteria_server.yaml
+listen: :443
+tls:
+  cert: /path/to/cert.crt
+  key: /path/to/key.key
+auth:
+  type: password
+  password: YOUR_HYSTERIA_PASSWORD
+obfs:
+  type: salamander
+  salamander:
+    password: YOUR_OBFUSCATION_PASSWORD
+quic:
+  initStreamReceiveWindow: 8388608
+  maxStreamReceiveWindow: 8388608

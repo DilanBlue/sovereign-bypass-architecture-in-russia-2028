@@ -1,0 +1,9 @@
+# hysteria_client.yaml
+server: NETHERLANDS_IP:443
+auth: YOUR_HYSTERIA_PASSWORD
+socks5:
+  listen: 127.0.0.1:1080
+obfs:
+  type: salamander
+  salamander:
+    password: YOUR_OBFUSCATION_PASSWORD

@@ -1,0 +1,21 @@
+# Secret files containing real keys and UUIDs
+# These should never be uploaded to a public repository
+*.local.json
+*.private.json
+secret_keys.txt
+*.key
+*.crt
+*.pem
+
+# Application logs
+*.log
+access.log
+error.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables
+.env
