@@ -14,7 +14,7 @@ Traditional VPNs fail when the government controls the physical cables. This arc
 ## Network Topology
 `User` -> `Moscow Node (VLESS+Reality)` -> `Kaliningrad Node (xHTTP)` -> `Satellite Uplink` -> `EU Exit Node (Hysteria 2)` -> `Global Web`
 
-##Instead of max.ru you can bet ads.x5.ru or vk.ru or other similar SNI
+## Instead of max.ru you can bet ads.x5.ru or vk.ru or other similar SNI
 
 ## Deployment
 See the `/configs` folder for implementation details.
